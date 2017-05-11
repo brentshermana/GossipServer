@@ -1,0 +1,29 @@
+Network Programming IMAP Programming Assignment
+
+Team Members:
+ - Brent Allard (ballard2014@my.fit.edu)
+ - Alexander Barys (abarys2015@my.fit.edu)
+ 
+ Note: Since this assignment is not a formal project milestone and does not
+ require a DOCUMENTATION.pdf file with all of the sections and details
+ contained therein, and the assignment description does not ask for or
+ require one, we did not create or include one because we also did not feel
+ that one would be necessary for this assignment.  If one was required, and
+ it would still be helpful to have one created after the assignment
+ submission, let us know and we will create one.  However, since there is
+ no DOCUMENTATION.pdf file, one quick note on the assignment implementation
+ is included here.
+ 
+ Notes on implementation:
+
+- username and password are both passed through the command line
+- We accept username arguments in both the format 'user' and 'user@domain.com'
+	The option without @domain.com only works if the imap server name
+	obeys the convention "imap.domain.*"
+- Neither the username nor the password should be enclosed in quotes.
+	Passwords may contain no whitespace other than singular internal
+	spaces, otherwise they will not be parsed correctly
+- regarding the -f option, Apache Commons CLI allows an option to have
+	multiple arguments, so we decided to use this feature. The preferred
+	method for using the -f option is "-f f1 f2 f3", rather than
+	"-f f1 -f f2 ...", but both should work

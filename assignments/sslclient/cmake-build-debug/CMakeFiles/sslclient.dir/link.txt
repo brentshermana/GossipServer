@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/sslclient.dir/forumDownload.cpp.o  -o sslclient 

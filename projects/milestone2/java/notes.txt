@@ -1,0 +1,4 @@
+Milestone 3:
+- (for gossip) To calculate the hash for a string in java, I've incorporated some external code which
+    should be addressed in the report
+- Should gossip be compared based on the actual message alone, or also the date?

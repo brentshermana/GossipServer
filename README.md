@@ -1,1 +1,1 @@
-# NetworkProgrammingGroupSPR17# GossipServer
+# NetworkProgrammingGroupSPR17

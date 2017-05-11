@@ -1,0 +1,9 @@
+Netork Programming Milestone 3
+
+Team Mmembers:
+ - Brent Allard (ballard2014@my.fit.edu)
+ - Alexander Barys (abarys2015@my.fit.edu)
+ - Hongjie Lie (hongjie2016@my.fit.edu)
+
+
+Note: the request name for the script to start the client is run.sh, however that is also the specified name for the script to start the server, so our script to start the client is instead called runClient.sh, while our script to start the server is still called run.sh

@@ -1,0 +1,3 @@
+/home/brent/dev/net/assignments/sslclient/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/brent/dev/net/assignments/sslclient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/brent/dev/net/assignments/sslclient/cmake-build-debug/CMakeFiles/sslclient.dir
